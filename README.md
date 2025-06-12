@@ -14,3 +14,9 @@ If you are developing a production application, we recommend using TypeScript wi
 =======
 # one-page
 >>>>>>> eb0a8eee78c7009a96df7f0fdac45e36e4d4bbc1
+
+
+
+// flex flex-wrap: Allows children to wrap into rows.
+// gap-[40px]: Adds 40px gap between all items.
+// w-[calc(50%-20px)]: Sets width to 50% minus half the gap (to account for spacing between 2 items per row).
