@@ -1,0 +1,46 @@
+#works {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.card-body {
+    border-radius: 40px;
+    background-color: #CBCBCB7A;
+}
+.card-first h2 {
+    font-family: 'Syne';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+.card-first p.car-desc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.support-list span {
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-family: 'Syne';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.support-list span:nth-child(1) {
+    margin-right: 8px;
+}
+
+.card-second a {
+    color: #010208;
+    font-family: 'Syne';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 100px;
+    display: inline-block;
+    &:hover {
+        color: #fff;
+    }
+}

@@ -3,6 +3,8 @@ import './App.css'
 import { Header } from './components/Header'
 import Banner from './components/Banner/Banner'
 import About from './components/About/About'
+import Works from './components/Works/Works'
+import Experience from './components/Experience/Experience'
 
 
 
@@ -12,6 +14,8 @@ export const App = () => {
       <Header />
       <Banner />
       <About />
+      <Works />
+      <Experience />
     </section>
   )
 }
