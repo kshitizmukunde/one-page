@@ -23,8 +23,7 @@ a {
 
 body {
   margin: 0;
-  background-color: #000;
-  height: 100vh;
+  background-color: #010208;
   font-family: 'Syne', sans-serif;
 }
 
@@ -67,4 +66,52 @@ button:focus-visible {
 .button-head {
   border-radius: 100px;
   border: 1px solid #fff;
+}
+
+
+
+
+/*------- Media Query -------- */
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .main-header {
+      row-gap: 20px;
+      justify-content: center;
+  }
+  .main-header .logo-grp {
+      flex-basis: 50%;
+      order: 1;
+  }
+  .main-header .nav-grp {
+    order: 3;
+    flex-basis: 100% !important;
+    justify-content: center;
+  }
+  .main-header .button-grp {
+    flex-basis: 50% !important;
+    order: 2;
+    text-align: end;
+  }
+}
+
+@media screen and (max-width: 575px){
+  .main-header {
+      row-gap: 20px;
+      justify-content: center;
+  }
+  .main-header .logo-grp {
+      flex-basis: 50%;
+      order: 1;
+  }
+  .main-header .nav-grp {
+    order: 3;
+    flex-basis: 100% !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .main-header .button-grp {
+    flex-basis: 50% !important;
+    order: 2;
+    text-align: end;
+  }
 }

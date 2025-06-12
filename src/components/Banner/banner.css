@@ -1,0 +1,110 @@
+#banner {
+    padding: 12rem 0;
+}
+.banner-section h1 img {
+    display: inline-block;
+}
+
+.banner-section h1 {
+  font-family: Syne;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+#banner .ban-second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    & .images-col {
+        display: flex;
+        flex-basis: 60%;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 7rem;
+
+        & img {
+            width: 132px;
+            height: 32px;
+        }
+    }
+    & .text-col {
+        flex-basis: 38%;
+        & p {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1280px) and  (min-width: 1024px){
+    #banner {
+        padding: 12rem 1rem;
+    }
+    .banner-section h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1023px) and  (min-width: 768px){
+    #banner {
+        padding: 7rem 1rem;
+    }
+    .banner-section h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    #banner .ban-second {
+        row-gap: 2rem;
+        margin-top: 2rem;
+    }
+    #banner .ban-second > div {
+        flex-basis: 100% !important;
+        gap: unset !important;
+        justify-content: space-between !important;
+    } 
+}
+
+@media screen and (max-width: 767px) and  (min-width: 640px){
+    #banner {
+        padding: 5rem 1rem;
+    }
+    .banner-section h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+        #banner .ban-second {
+        row-gap: 2rem;
+        margin-top: 2rem;
+    }
+    #banner .ban-second > div {
+        flex-basis: 100% !important;
+        gap: unset !important;
+        justify-content: space-between !important;
+    } 
+}
+
+@media screen and (max-width: 639px){
+        #banner {
+        padding: 5rem 1rem;
+    }
+    .banner-section h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+        #banner .ban-second {
+        row-gap: 2rem;
+        margin-top: 2rem;
+    }
+    #banner .ban-second > div {
+        flex-basis: 100% !important;
+        gap: unset !important;
+        justify-content: center !important;
+        flex-wrap: wrap;
+        column-gap: 24px !important;
+    } 
+}

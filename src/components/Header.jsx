@@ -1,4 +1,4 @@
-
+import logo from "../../public/logo.png"
 
 export const Header = () => {
     return (
@@ -6,7 +6,7 @@ export const Header = () => {
             <div className="container">
                 <div className="main-header sm:flex-wrap flex-wrap flex items-center justify-between">
                     <div className="logo-grp">
-                        <img src="./logo.png" alt="logo" />
+                        <img src={logo} alt="Logo" />
                     </div>
                     <nav className="nav-grp flex gap-2">
                         <a href="#" className="font-normal text-base rounded-3xl px-6 py-2 bg-white text-black">Home</a>
