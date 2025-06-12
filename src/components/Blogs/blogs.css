@@ -1,0 +1,33 @@
+#blogs {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.blog-meta p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #CBCBCB;
+}
+
+.blog-meta h3 {
+    font-family: 'Syne';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+.blog-meta .category-list span {
+    border-radius: 100px;
+    cursor: pointer;
+    display: inline-block;
+}
+.blog-meta .category-list span:nth-child(1) {
+    margin-right: 8px;
+}
+
+.meta-btn a {
+    color: #010208;
+    border-radius: 100px;
+    display: block;
+}

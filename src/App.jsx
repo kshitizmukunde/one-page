@@ -5,6 +5,7 @@ import Banner from './components/Banner/Banner'
 import About from './components/About/About'
 import Works from './components/Works/Works'
 import Experience from './components/Experience/Experience'
+import Blogs from './components/Blogs/Blogs'
 
 
 
@@ -16,6 +17,7 @@ export const App = () => {
       <About />
       <Works />
       <Experience />
+      <Blogs />
     </section>
   )
 }
