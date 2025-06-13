@@ -6,6 +6,8 @@ import About from './components/About/About'
 import Works from './components/Works/Works'
 import Experience from './components/Experience/Experience'
 import Blogs from './components/Blogs/Blogs'
+import Testimonials from './components/Testimonials/Testimonials'
+import Faqs from './components/Faqs/Faqs'
 
 
 
@@ -18,6 +20,8 @@ export const App = () => {
       <Works />
       <Experience />
       <Blogs />
+      <Testimonials />
+      <Faqs />
     </section>
   )
 }
