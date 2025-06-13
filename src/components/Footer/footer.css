@@ -1,0 +1,13 @@
+.footer-grp h2 {
+    font-family: 'Syne';
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.footer-link-div a {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}

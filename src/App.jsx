@@ -8,11 +8,14 @@ import Experience from './components/Experience/Experience'
 import Blogs from './components/Blogs/Blogs'
 import Testimonials from './components/Testimonials/Testimonials'
 import Faqs from './components/Faqs/Faqs'
+import Marquee from './components/Marquee/Marquee'
+import Footer from './components/Footer/Footer'
 
 
 
 export const App = () => {
   return (
+    <>
     <section className='container m-auto'>
       <Header />
       <Banner />
@@ -23,6 +26,9 @@ export const App = () => {
       <Testimonials />
       <Faqs />
     </section>
+      <Marquee />
+      <Footer />
+    </>
   )
 }
 
